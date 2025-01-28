@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    background-color: #F0F8FF;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hed{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color: #4B0082;
+}
+.contaner{
+    height: auto;
+    width: 350px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.game{
+    margin-bottom: 20px;
+    gap: 3.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 45vw;
+}
+.box{
+    height: 135px;
+    width: 135px;
+    font-size: 50px;
+    border-radius: 1rem;
+    border: none;
+    background-color: #87CEEB;
+    color: #FF4500;
+    transition: background-color 0.3s ease;
+}
+.box:hover {
+    background-color: #ADD8E6; 
+    cursor: pointer;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.winner_contaner{
+    font-size: 15px;
+    color: #32CD32;
+    background-color: #FFFACD;
+    border: 2px solid #FFD700;
+    padding: 10px;
+    border-radius: 10px;
+}
+.winning-msg{
+    margin: 16px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+.winning-msg #win-hed{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #32CD32;
+}
+.hide{
+    display: none;
+}
+#res_game{
+   
+    font-size: 20px;
+    padding: 5px 15px;
+    border-radius: 1rem;
+    margin: 20px 0;
+    border: none;
+    background-color: #FF6347; 
+    color: #FFFFFF; 
+    transition: background-color 0.3s ease;
+}
+#res_game:hover {
+    background-color: #CD5C5C; 
+    cursor: pointer;
+}
+
+@media (max-width: 720px) {
+    .contaner{
+        width: 450px;
+    }
+    .game{
+        width: 75vw;
+    }
+    #hed{
+        font-size: 50px;
+        margin: 30px 0;
+        font-weight: 600;
+    }
+    #res_game{
+        font-size: 35px;
+        width: 300px;
+        height: 95px;
+        font-weight: 600;
+        border-radius: 100px;
+    }
+    .box{
+        font-size: 65px;
+        font-weight: 600;
+    }
+    .winner_contaner {
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px) {
+
+    .game{
+        width: 110vw;
+    }
+    .box{
+        font-size: 45px;
+        font-weight: 600;
+        width: 120px;
+    }
+    .winner_contaner {
+        font-size: 15px;
+    }
+   
+}
