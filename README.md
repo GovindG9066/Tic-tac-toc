@@ -58,14 +58,14 @@ Play this classic **2-player** game with your friends — all within your browse
 6. **Click Reset to start a new game.**
 
 
-**🤝 Contributing**
+## 🤝 Contributing
 💡 Have ideas or improvements?
 You're welcome to fork the repo and submit a Pull Request.
 
-**📄 License**
+## 📄 License
 This project is open-source and available under the MIT License.
 
-**👨‍💻 Author**
-Made with ❤️ by *Govind Dagadu Gadekar*
+## 👨‍💻 Author
+Made with ❤️ by `Govind Dagadu Gadekar`
 
 
